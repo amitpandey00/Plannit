@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    SETUP INSTRUCTIONS:
+    1. Go to https://console.cloud.google.com/
+    2. Create a new project or select existing one
+    3. Enable Google Calendar API
+    4. Go to "Credentials" and create OAuth 2.0 Client IDs:
+
+       a) Android Client ID:
+          - Application type: Android
+          - Package name: com.example.plannit
+          - SHA-1: 79:3F:22:E8:49:94:5C:DF:AD:2B:DA:95:66:CF:6D:3E:61:A9:1F:4A
+
+       b) Web Application Client ID:
+          - Application type: Web application
+          - This is used for ID token verification
+
+    5. Copy your client IDs below
+    6. Make sure both Client IDs are from the same Google Cloud project
+    -->
+    <!-- Android OAuth Client ID - for app authentication -->
+    <string name="google_client_id">662769645426-c5b3b9g41dat364flsgjngteo3o37uob.apps.googleusercontent.com</string>
+
+    <!-- Web OAuth Client ID - for ID token verification (REQUIRED) -->
+    <!-- You MUST create this in Google Cloud Console and paste it here -->
+    <string name="google_web_client_id">662769645426-vgkv88s4vqsjo7542s11al5qi38dqjjf.apps.googleusercontent.com</string>
+
+</resources>
